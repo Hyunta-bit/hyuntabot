@@ -1,4 +1,5 @@
 import discord
+import os
 from discord.utils import get
 from datetime import datetime
 
