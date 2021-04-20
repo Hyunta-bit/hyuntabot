@@ -18,7 +18,7 @@ async def on_ready():
        
         await client.change_presence(status=discord.Status.online, activity=game)
     
-        print("현타봇에 로그인하였습니다!")
+
 
 
 
