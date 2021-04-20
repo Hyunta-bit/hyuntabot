@@ -8,8 +8,6 @@ now = datetime.now()
 intents=discord.Intents.default()
 client = discord.Client(intents=intents)
 
-현타통장 = 10000
-
 @client.event
 async def on_ready():
         
@@ -17,6 +15,7 @@ async def on_ready():
 
        
         await client.change_presence(status=discord.Status.online, activity=game)
+        print("현타봇에 로그인하였습니다!")
     
 
 
